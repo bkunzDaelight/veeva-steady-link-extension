@@ -16,12 +16,13 @@ Chrome extension that adds a "Copy Steady State Link" action to Veeva Vault docu
 ## Installation
 
 1. Download the repository
-2. Open Chrome
-3. Go to:
+2. Extract the repository zip file to your extension folder location
+3. Open Chrome
+4. Go to:
    chrome://extensions
-4. Enable Developer Mode
-5. Click "Load unpacked"
-6. Select the extension folder
+5. Enable Developer Mode
+6. Click "Load unpacked"
+7. Select the extension folder
 
 ## Notes
 
