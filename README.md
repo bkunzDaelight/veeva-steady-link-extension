@@ -1,6 +1,6 @@
 # Vault Steady State Link Copier
 
-Prototype Chrome/Edge extension that adds a "Copy Steady State Link" action to Veeva Vault document menus.
+Chrome extension that adds a "Copy Steady State Link" action to Veeva Vault document menus.
 
 ## Demo
 
@@ -16,7 +16,7 @@ Prototype Chrome/Edge extension that adds a "Copy Steady State Link" action to V
 ## Installation
 
 1. Download the repository
-2. Open Chrome or Edge
+2. Open Chrome
 3. Go to:
    chrome://extensions
 4. Enable Developer Mode
