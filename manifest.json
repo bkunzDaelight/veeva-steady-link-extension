@@ -1,0 +1,32 @@
+{
+  "manifest_version": 3,
+  "name": "Veeva Steady State Link Copier",
+  "version": "0.2.0",
+  "description": "Adds a Copy Steady State Link action inside Veeva Vault document menus.",
+  "permissions": ["clipboardWrite"],
+  "host_permissions": [
+    "https://*.veevavault.com/*"
+  ],
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  },
+  "action": {
+    "default_title": "Veeva Steady State Link Copier",
+    "default_icon": {
+      "16": "icon16.png",
+      "48": "icon48.png",
+      "128": "icon128.png"
+    }
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://*.veevavault.com/*"
+      ],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ]
+}
